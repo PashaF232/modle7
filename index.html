@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Модуль 7</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body class="df h-cent b-col">
+  <div class="df h-cent top1">
+    <nav class="df fdc">
+      <div class="dg layout1 head1">
+        <div class="df v-cent">
+          <div class="df h-cent v-cent logo">MNTN</div>
+        </div>
+        <div class="df v-cent h-cent">
+          <div class="df v-cent h-cent center-conteiner">
+            <div class="df h-cent v-cent f-poppins center">Equipment</div>
+            <div class="df h-cent v-cent f-poppins center">About us</div>
+            <div class="df h-cent v-cent f-poppins center">Blog</div>
+          </div>
+        </div>
+        <div class="df v-cent h-right">
+          <div class="df v-cent h-right account-conteiner">
+            <div class="df v-cent account-img-conteiner">
+              <img src="./img/icon/action/account_circle_24px.svg" alt="Account">
+            </div>
+            <div class="df h-cent v-cent f-poppins account">Account</div>
+          </div>
+          <div class="df v-cent h-right menu-conteiner" onclick="openMobMenu()">
+            <img src="./img/icon/navigation/Menu.svg" alt="Menu">
+          </div>
+        </div>
+      </div>
+      <div id="mobMenu" class="dg head2">
+        <div class="dg mob-menu-1">
+          <div class="df h-left v-cent logo filter">MNTN</div>
+          <div class="df v-cent h-right" onclick="closeMobMenu()">
+            <img src="./img/icon/navigation/Close.svg" alt="Close">
+          </div>
+        </div>
+        <div class="dg mob-menu-2 filter">
+          <div class="df v-bottom h-left mob-menu-list">
+            <div class="df h-cent v-cent f-poppins mob-menu-list-item">Equipment</div>
+            <div class="df h-cent v-cent f-poppins mob-menu-list-item">About us</div>
+            <div class="df h-cent v-cent f-poppins mob-menu-list-item">Blog</div>
+          </div>
+          <div class="df h-right v-cent f-poppins f-us-mob-2">
+            <span class="df h-right v-cent f-us-text-mob-2">Follow us</span>
+            <img class="df h-right v-cent inst-img-mob-2" src="./img/icon/instagram.svg" alt="Instagram">
+            <img class="df h-right v-cent tw-img-mob-2" src="./img/icon/twitter.svg" alt="Twitter">
+          </div>
+          <div class="df v-bottom mob-menu-account">
+            <div class="df v-cent account-img-conteiner">
+              <img src="./img/icon/action/account_circle_24px.svg" alt="Account">
+            </div>
+            <div class="df h-cent v-cent f-poppins account">Account</div>
+          </div>
+        </div>
+      </div>
+      <div class="dg body-top">
+        <div class="df h-cent v-cent f-poppins f-us">
+          <span class="f-us-text">Follow us</span>
+          <img class="inst-img" src="./img/icon/instagram.svg" alt="Instagram">
+          <img class="tw-img" src="./img/icon/twitter.svg" alt="Twitter">
+        </div>
+        <div class="df h-cent v-cent f-poppins fixed-middle"></div>
+        <div class="dg f-poppins slider">
+          <div class="df h-space-b v-bottom f-poppins slider-text">
+            <span class="df h-right slider-text-start">Start</span>
+            <span class="df h-right slider-text-1">01</span>
+            <span class="df h-right slider-text-2">02</span>
+            <span class="df h-right slider-text-3">02</span>
+          </div>
+          <div class="df h-right v-top f-poppins slider-img">
+            <img class="slider-img-bg" src="./img/icon/SliderBG.svg" alt="Slider BG">
+            <img class="slider-img-ind" src="./img/icon/SliderIndicator.svg" alt="Slider Indicator">
+          </div>
+        </div>
+      
+      </div>
+      <div id="f-us-mob" class="dg layout2-mob body-top-mob">
+        <div class="df h-right v-cent f-poppins f-us-mob">
+          <span class="f-us-text-mob">Follow us</span>
+          <img class="inst-img-mob" src="./img/icon/instagram.svg" alt="Instagram">
+          <img class="tw-img-mob" src="./img/icon/twitter.svg" alt="Twitter">
+        </div>
+
+      
+      </div>
+      <!-- <div class="df h-cent v-cent f-poppins h-guide">
+        <h1 class="df h-left v-cent h_title">Be prepared for the Mountains and beyond!</h1>
+        <p class="h_subtitle">A Hiking guide</p>
+        <a href="#" class="btn btn_scroll btn_icon"> scroll down 
+          <svg aria-hidden="true" width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 16L14.59 14.59L9 20.17V0H7V20.17L1.42 14.58L0 16L8 24L16 16Z" fill="currentcolor"></path>
+          </svg>
+        </a>
+      </div> -->
+
+    </nav>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
